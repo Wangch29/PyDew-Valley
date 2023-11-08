@@ -11,7 +11,6 @@ class Game:
         self.level = Level()
         pygame.display.set_caption("Ikun Valley")
 
-
     def run(self):
         while True:
             for event in pygame.event.get():
