@@ -2,7 +2,7 @@ import pygame
 
 
 class Timer:
-    def __init__(self, duration: float, func = None):
+    def __init__(self, duration: float, func=None):
         self.duration: float = duration
         self.func = func
         self.start_time: float = 0
